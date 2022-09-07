@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Post(models.Model):
     password = models.CharField('비밀번호', max_length=128)
     title = models.CharField('제목', max_length=20)
