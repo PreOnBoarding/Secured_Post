@@ -78,3 +78,11 @@
 <br>
 
 ## 💻 트러블슈팅
+![0](https://user-images.githubusercontent.com/104303285/188866809-a3213550-21d9-4c09-a33d-28aaf01f487e.png)
+![0-1](https://user-images.githubusercontent.com/104303285/188866842-4eaba61e-c8ef-471a-872b-46dffe79816c.png)
+![0-2](https://user-images.githubusercontent.com/104303285/188866886-e003cd53-68bd-4150-82da-e070dee14c45.png)
+![0-3](https://user-images.githubusercontent.com/104303285/188866868-dccf83b1-f8ec-4bad-9cad-b38bd331bba6.png)
+
+
+
+
