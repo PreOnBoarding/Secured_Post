@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from post.services.post_service import (
+    get_post,
     create_post,
     update_post,
     delete_post
@@ -15,6 +16,12 @@ class PostView(APIView):
     """
     게시글의 CRUD를 담당하는 View
     """
+    def get(self, request):
+        params = request.GET.get('page', '1')
+        page = int(params) - 1
+        posts_serializer = get_post(page)
+        return Response(posts_serializer, status=status.HTTP_200_OK)
+
 
     def post(self, request):
         try:
